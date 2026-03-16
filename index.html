@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Midorinami — Premium Japanese Matcha</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Noto+Serif+JP:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-kanji">緑波</span>
+        <span class="logo-text">MIDORINAMI</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#products">Products</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#craft">The Craft</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#contact" class="nav-cta">Order Now</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#craft">The Craft</a></li>
+      <li><a href="#benefits">Benefits</a></li>
+      <li><a href="#contact">Order Now</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero-bg.jpg" alt="Matcha products" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow fade-in">抹茶 · Ceremonial Grade</p>
+      <h1 class="hero-title fade-in delay-1">
+        The Purest Shade<br />of <em>Green</em>
+      </h1>
+      <p class="hero-subtitle fade-in delay-2">
+        Stone-ground matcha from Uji, Japan — harvested with centuries of tradition,<br class="hide-mobile" />
+        delivered to your doorstep.
+      </p>
+      <div class="hero-actions fade-in delay-3">
+        <a href="#products" class="btn btn-primary">Explore Matcha</a>
+        <a href="#story" class="btn btn-ghost">Our Story</a>
+      </div>
+    </div>
+    <a href="#products" class="scroll-indicator" aria-label="Scroll down">
+      <span class="scroll-line"></span>
+    </a>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Our Collection</p>
+        <h2 class="section-title">Two Expressions of Perfection</h2>
+        <p class="section-desc">Each tin is a journey — from the shaded tea fields of Japan to the quiet ritual of your morning.</p>
+      </div>
+
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card reveal">
+          <div class="product-image-wrap">
+            <img src="images/product-midorinami.jpg" alt="Midorinami Matcha tin" class="product-img" />
+            <div class="product-image-placeholder">
+              <span class="placeholder-kanji">緑波</span>
+            </div>
+            <span class="product-badge">Bestseller</span>
+          </div>
+          <div class="product-info">
+            <div class="product-label">
+              <span class="kanji-tag">抹茶</span>
+              <span class="product-romaji">MIDORINAMI</span>
+            </div>
+            <h3 class="product-name">緑波 <em>Green Wave</em></h3>
+            <p class="product-desc">
+              A vibrant, full-bodied ceremonial grade with deep umami, a bright emerald hue, and a smooth, lingering sweetness. Perfect for both traditional tea ceremony and modern lattes.
+            </p>
+            <ul class="product-details">
+              <li><span>Grade</span><span>Ceremonial</span></li>
+              <li><span>Origin</span><span>Uji, Kyoto</span></li>
+              <li><span>Net Weight</span><span>30g</span></li>
+              <li><span>Harvest</span><span>First Flush</span></li>
+            </ul>
+            <div class="product-footer">
+              <span class="product-price">$38 <small>/ 30g</small></span>
+              <a href="#contact" class="btn btn-primary btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card reveal delay-1">
+          <div class="product-image-wrap">
+            <img src="images/product-hekido.jpg" alt="Hekido Matcha tin" class="product-img" />
+            <div class="product-image-placeholder alt">
+              <span class="placeholder-kanji">碧道</span>
+            </div>
+            <span class="product-badge premium">Premium</span>
+          </div>
+          <div class="product-info">
+            <div class="product-label">
+              <span class="kanji-tag">抹茶</span>
+              <span class="product-romaji">HEKIDO</span>
+            </div>
+            <h3 class="product-name">碧道 <em>Jade Path</em></h3>
+            <p class="product-desc">
+              Our finest expression — a rare, single-harvest blend of exceptional depth. Silky texture, floral aroma, and a jade-green color that reflects the care of our master tea farmers.
+            </p>
+            <ul class="product-details">
+              <li><span>Grade</span><span>Premium Ceremonial</span></li>
+              <li><span>Origin</span><span>Uji, Kyoto</span></li>
+              <li><span>Net Weight</span><span>20g</span></li>
+              <li><span>Harvest</span><span>Single Estate</span></li>
+            </ul>
+            <div class="product-footer">
+              <span class="product-price">$52 <small>/ 20g</small></span>
+              <a href="#contact" class="btn btn-primary btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story Section -->
+  <section class="story" id="story">
+    <div class="story-inner">
+      <div class="story-image reveal">
+        <img src="images/story-photo.jpg" alt="Matcha tea ceremony" />
+        <div class="story-image-placeholder">
+          <span>茶道</span>
+          <p>The Way of Tea</p>
+        </div>
+      </div>
+      <div class="story-text reveal delay-1">
+        <p class="section-eyebrow">Our Story</p>
+        <h2 class="section-title">Rooted in Tradition,<br />Grown with Purpose</h2>
+        <p>
+          Midorinami was born from a single cup — one sip that changed everything. After years of searching for matcha that captured the spirit of the Japanese tea ceremony, our founder traveled to the ancient tea fields of Uji, Kyoto, where the finest matcha has been cultivated for over 800 years.
+        </p>
+        <p>
+          We work directly with small family farms who shade their tea plants for 3 to 4 weeks before harvest — the key step that deepens the flavor and amplifies the vibrant green color. Every tin is stone-ground to order, preserving freshness and the delicate complexity of each leaf.
+        </p>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Craft / Process Section -->
+  <section class="craft" id="craft">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">The Craft</p>
+        <h2 class="section-title">From Field to Bowl</h2>
+        <p class="section-desc">Every step of our process is guided by reverence for the leaf.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step reveal">
+          <div class="step-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 8C20 8 12 18 12 28c0 12 12 20 20 28 8-8 20-16 20-28 0-10-8-20-20-20z" stroke="currentColor" stroke-width="2" fill="none"/>
+              <path d="M32 20v16M24 28h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="step-num">01</span>
+          <h3>Shading</h3>
+          <p>Tea plants are covered with bamboo screens for 3–4 weeks before harvest, boosting chlorophyll and amino acids for a sweeter, more complex flavor.</p>
+        </div>
+        <div class="step reveal delay-1">
+          <div class="step-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 20h32M16 32h32M16 44h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="step-num">02</span>
+          <h3>Hand-Picking</h3>
+          <p>Only the youngest, most tender leaves — the first and second flush — are carefully hand-selected by experienced farmers at peak harvest.</p>
+        </div>
+        <div class="step reveal delay-2">
+          <div class="step-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="18" stroke="currentColor" stroke-width="2"/>
+              <circle cx="32" cy="32" r="8" stroke="currentColor" stroke-width="2"/>
+              <path d="M32 14v4M32 46v4M14 32h4M46 32h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="step-num">03</span>
+          <h3>Stone-Ground</h3>
+          <p>Dried leaves (tencha) are slowly ground between granite millstones at low temperature — producing an ultra-fine powder with no heat damage to nutrients.</p>
+        </div>
+        <div class="step reveal delay-3">
+          <div class="step-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="12" y="20" width="40" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M22 20V16a10 10 0 0120 0v4" stroke="currentColor" stroke-width="2"/>
+              <circle cx="32" cy="36" r="4" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <span class="step-num">04</span>
+          <h3>Sealed Fresh</h3>
+          <p>Packed immediately in nitrogen-flushed, light-proof tins to lock in the vibrant flavor, color, and nutritional potency until the moment you brew.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="benefits" id="benefits">
+    <div class="container">
+      <div class="section-header light">
+        <p class="section-eyebrow">Why Matcha</p>
+        <h2 class="section-title">A Cup That Gives Back</h2>
+        <p class="section-desc">Matcha isn't just a drink — it's a practice, a ritual, and a gift to your body and mind.</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">🌿</div>
+          <h3>Sustained Energy</h3>
+          <p>L-theanine and natural caffeine work together for calm, focused energy — no jitters, no crash.</p>
+        </div>
+        <div class="benefit-card reveal delay-1">
+          <div class="benefit-icon">🧠</div>
+          <h3>Mental Clarity</h3>
+          <p>Used by Zen monks for centuries to enhance meditation and sharpen concentration.</p>
+        </div>
+        <div class="benefit-card reveal delay-2">
+          <div class="benefit-icon">✨</div>
+          <h3>Rich in Antioxidants</h3>
+          <p>Contains EGCG — one of the most powerful antioxidants — helping protect cells and reduce inflammation.</p>
+        </div>
+        <div class="benefit-card reveal delay-3">
+          <div class="benefit-icon">💚</div>
+          <h3>Whole Leaf Nutrition</h3>
+          <p>Unlike steeped teas, you consume the entire leaf — getting the full spectrum of vitamins, fiber, and chlorophyll.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Banner -->
+  <section class="gallery-banner">
+    <div class="gallery-track">
+      <img src="images/gallery-1.jpg" alt="Matcha products floating" class="gallery-item" />
+      <div class="gallery-placeholder gallery-item">
+        <span>緑</span>
+      </div>
+      <img src="images/gallery-2.jpg" alt="Matcha ceremony" class="gallery-item" />
+      <div class="gallery-placeholder gallery-item alt">
+        <span>碧</span>
+      </div>
+      <img src="images/gallery-3.jpg" alt="Matcha powder" class="gallery-item" />
+      <!-- Repeat for seamless scroll -->
+      <img src="images/gallery-1.jpg" alt="Matcha products floating" class="gallery-item" aria-hidden="true" />
+      <div class="gallery-placeholder gallery-item" aria-hidden="true">
+        <span>緑</span>
+      </div>
+      <img src="images/gallery-2.jpg" alt="Matcha ceremony" class="gallery-item" aria-hidden="true" />
+      <div class="gallery-placeholder gallery-item alt" aria-hidden="true">
+        <span>碧</span>
+      </div>
+      <img src="images/gallery-3.jpg" alt="Matcha powder" class="gallery-item" aria-hidden="true" />
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Reviews</p>
+        <h2 class="section-title">What Our Customers Say</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"The Midorinami is unlike any matcha I've tried. Silky, sweet, and the color is absolutely gorgeous. My morning ritual will never be the same."</p>
+          <cite>— Sarah K., New York</cite>
+        </div>
+        <div class="testimonial-card reveal delay-1">
+          <div class="stars">★★★★★</div>
+          <p>"I've been a tea ceremony practitioner for 12 years. Hekido is the real deal — it whisks beautifully and the flavor is transcendent."</p>
+          <cite>— James T., London</cite>
+        </div>
+        <div class="testimonial-card reveal delay-2">
+          <div class="stars">★★★★★</div>
+          <p>"Beautiful packaging, incredible quality. I ordered for a gift and ended up keeping one for myself. Fast shipping and such care in presentation."</p>
+          <cite>— Yuki M., Tokyo</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Order Section -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="contact-text reveal">
+        <p class="section-eyebrow">Order & Enquiries</p>
+        <h2 class="section-title">Begin Your<br />Matcha Journey</h2>
+        <p>Ready to experience the finest matcha from Uji? Fill in the form and we'll respond within 24 hours with availability, pricing, and shipping details.</p>
+        <div class="contact-details">
+          <p>📧 <a href="mailto:hello@midorinami.com">hello@midorinami.com</a></p>
+          <p>📍 Ships worldwide from Kyoto, Japan</p>
+        </div>
+      </div>
+      <form class="contact-form reveal delay-1" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="product">Product Interest</label>
+          <select id="product" name="product">
+            <option value="">Select a product</option>
+            <option value="midorinami">Midorinami — 緑波 (30g, $38)</option>
+            <option value="hekido">Hekido — 碧道 (20g, $52)</option>
+            <option value="both">Both Products</option>
+            <option value="wholesale">Wholesale Inquiry</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us about your order, any questions, or special requirements..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        <div class="form-success" id="formSuccess">
+          <span>✓</span> Thank you! We'll be in touch within 24 hours.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-kanji">緑波</span>
+        <span class="logo-text">MIDORINAMI</span>
+        <p>Premium ceremonial matcha<br />from the hills of Uji, Kyoto.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#story">Our Story</a></li>
+          <li><a href="#craft">The Craft</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="#products">Midorinami — 緑波</a></li>
+          <li><a href="#products">Hekido — 碧道</a></li>
+          <li><a href="#contact">Wholesale</a></li>
+          <li><a href="#contact">Gift Sets</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="Pinterest">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 4.236 2.636 7.855 6.356 9.312-.088-.791-.167-2.005.035-2.868.181-.78 1.172-4.97 1.172-4.97s-.299-.598-.299-1.482c0-1.388.806-2.428 1.808-2.428.853 0 1.267.64 1.267 1.408 0 .858-.546 2.14-.828 3.33-.236.995.499 1.806 1.476 1.806 1.772 0 3.137-1.868 3.137-4.56 0-2.386-1.715-4.054-4.164-4.054-2.838 0-4.504 2.128-4.504 4.327 0 .856.33 1.774.741 2.276a.3.3 0 01.069.286c-.076.315-.244.995-.277 1.134-.044.183-.146.222-.336.134-1.249-.581-2.03-2.407-2.03-3.874 0-3.154 2.292-6.052 6.608-6.052 3.469 0 6.165 2.473 6.165 5.776 0 3.447-2.173 6.22-5.19 6.22-1.013 0-1.966-.527-2.292-1.148l-.623 2.378c-.226.869-.835 1.958-1.244 2.621.937.29 1.931.446 2.962.446 5.523 0 10-4.477 10-10S17.523 2 12 2z"/>
+            </svg>
+          </a>
+        </div>
+        <p class="footer-tagline">一期一会<br /><small>One time, one meeting</small></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Midorinami. All rights reserved. | Crafted with care in Kyoto, Japan.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
