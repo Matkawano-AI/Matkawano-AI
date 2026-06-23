@@ -1,64 +1,70 @@
-# 👋 Hi, I’m Masahiro Kawano
+👋 Hi, I'm Masahiro Kawano
 
-**AI Prompt Engineer | AI Systems & Workflow Automation (Entry Level)**
+AI Workflow Engineer & Full-Stack Developer
 
-I specialize in **structured command prompting** and AI-assisted workflows that reliably bring out the full potential of large language models (LLMs) for real-world use cases—automation, analysis, tracking, and decision support.
+I ship production web apps by directing AI coding tools, primarily Claude Code, across the full stack: architecture, backend logic, frontend UI, and deployment. I'm CEO of Yume Cha, a live matcha e-commerce brand I built from the ground up, and the freelance developer behind CA-Films, a delivered, live cinematography portfolio and booking site.
 
-My strength is not “chatting with AI,” but **designing precise, constraint-driven prompts** that produce consistent, high-quality outputs aligned with business goals.
+My edge isn't "chatting with AI." It's using a disciplined, AI-assisted workflow to move from idea to shipped, real-world product quickly while owning the full technical stack.
 
----
+🌏 Based in Japan (JST / UTC+9) · open to global remote roles
 
-## 🔹 What I Do Best
-- Advanced prompt design (command-based, role-based, constraint-driven)
-- Two-phase prompting (planning → execution)
-- Prompt evaluation & iteration (assumptions, failure modes, self-checks)
-- AI-assisted workflow automation
-- Translating business problems into AI-executable instructions
 
----
+🔹 Live Projects
 
-## 🔹 Prompting Philosophy
-I treat prompting as a **technical skill**, not a guessing game.
+Yume Cha: Matcha E-Commerce Website · yumechaph.com
+Full e-commerce platform: product listing, cart, checkout, payment confirmation, order history, admin dashboard, and live stock display. Built with Next.js and Clerk authentication, with Google Apps Script + Sheets automation for order management and customer emails. Architected end to end with Claude and Claude Code.
+Role: CEO & Developer · Live in production.
 
-My prompts typically include:
-- Clear role definition
-- Explicit objectives
-- Strict constraints (no hallucination, format control)
-- Defined input & output schemas
-- Validation and self-consistency checks
+CA-Films: Cinematography Portfolio & Booking Website · ca-films.com
+Live portfolio and booking site delivered for a cinematography client: work gallery, inquiry form, admin dashboard, and multi-language support. Built on Next.js with Google Apps Script + Sheets for booking submissions and Next.js API Routes for server-side handling.
+Role: Freelance Developer · Live in production.
 
-This approach makes AI outputs **reliable, auditable, and reusable**.
 
----
+🔹 How I Build
 
-## 🔹 Tools & Environment
-- ChatGPT / GPT-4-class LLMs
-- Google Sheets & Excel (advanced formulas, logic design)
-- Google Apps Script (trigger-based automation)
-- GitHub (documentation, prompt versioning)
+I treat AI-assisted development as a technical discipline, not a guessing game:
 
----
 
-## 🔹 Portfolio Projects
-Please see my pinned repositories below for:
-- AI-assisted inventory & finance systems
-- Prompt engineering command patterns
-- AI workflow evaluation frameworks
-- Decision-support prompting for business use cases
+Architect and ship full-stack apps with Claude Code (Next.js, TypeScript, React)
+Two-phase workflow: planning, then execution
+Constraint-driven prompting (clear roles, explicit objectives, format control, no hallucination)
+Validation, self-consistency checks, and iteration before anything reaches production
+Translate business problems into AI-executable instructions
 
-Each project is documented with **problem context, prompt strategy, and outcomes**.
 
----
 
-## 🔹 What I’m Seeking
-I am open to **global remote roles** such as:
-- AI Prompt Engineer (Entry Level)
-- AI Specialist
-- AI Operations
-- AI Automation / Workflow Roles
+🔹 Tech & Tools
 
-I value roles where AI is used **responsibly, systematically, and with real impact**.
 
----
+Frontend: Next.js, React, TypeScript, Tailwind CSS
+Backend: Node.js, Next.js API Routes, Google Apps Script, REST APIs
+Data: PostgreSQL, Prisma ORM, Google Sheets
+Infra: Clerk, Vercel
+AI: Anthropic API, Claude, Claude Code, ChatGPT
+Other: Git, Excel, Google Forms
 
-📌 *If you’re reviewing my GitHub: start with the pinned repositories below.*
+
+
+🔹 What I'm Seeking
+
+Open to global remote roles (JST / UTC+9):
+
+
+AI Engineer / Applied AI Engineer
+Full-Stack Engineer (AI-assisted)
+AI Workflow / Automation Engineer
+
+
+I value teams that use AI responsibly, systematically, and for real impact.
+
+
+🔹 Find Me
+
+
+🌐 yumechaph.com · ca-films.com
+💼 LinkedIn
+📧 matchangkawano@gmail.com
+
+
+
+📌 Reviewing my GitHub? Start with my pinned repositories below.
